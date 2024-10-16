@@ -1,0 +1,17 @@
+{
+  "cxxNamespace": ["NitroMath"],
+  "ios": {
+    "iosModulename": "NitroMath"
+  },
+  "android": {
+    "androidNamespace": ["NitroMath"],
+    "androidCxxLibName": "NitroMath"
+  },
+  "autolinking": {
+    "Math": {
+      "swift": "HybridMath",
+      "kotlin": "HybridMath"
+    }
+  },
+  "ignorePaths": ["node_modules"]
+}
