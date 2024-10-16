@@ -74,7 +74,9 @@
       "@react-native",
       "prettier"
     ],
-    "plugins": ["prettier"],
+    "plugins": [
+      "prettier"
+    ],
     "rules": {
       "prettier/prettier": [
         "warn",
@@ -99,5 +101,6 @@
     "trailingComma": "es5",
     "useTabs": false,
     "semi": false
-  }
+  },
+  "packageManager": "yarn@3.6.4"
 }
